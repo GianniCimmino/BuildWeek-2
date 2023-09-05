@@ -8,3 +8,11 @@
 	font-weight: bold;
     color: black;
 }
+
+.container.my-5 .d-flex img {
+    filter: invert(44%) sepia(93%) saturate(7483%) hue-rotate(332deg) brightness(92%) contrast(93%);
+}
+
+.container.text-center.d-flex.my-1  {
+    background-color: yellowgreen;
+}
