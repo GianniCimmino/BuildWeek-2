@@ -1,0 +1,21 @@
+@media screen and (min-width: 992px) {
+    header .col-12.col-lg-auto.img-fluid img{
+        max-width: 785px;
+    }
+}   
+
+
+header .col-12.col-lg-auto.img-fluid img {
+    border-radius: 25px 0 0 25px;
+}
+
+header .row .row:first-child .col:last-child  img{
+
+    border-radius: 0 25px 0 0;
+}
+
+header .row .row:last-child .col:last-child  img{
+
+    border-radius: 0 0 25px 0;
+}
+
