@@ -1,11 +1,11 @@
-@media screen and (min-width: 992px) {
-    header .col-12.col-lg-auto.img-fluid img{
+@media screen and (min-width: 992px) { 
+    header .col-12.col-lg-auto img{
         max-width: 785px;
     }
 }   
 
 
-header .col-12.col-lg-auto.img-fluid img {
+header .col-12.col-lg-auto img {
     border-radius: 25px 0 0 25px;
 }
 
@@ -19,3 +19,38 @@ header .row .row:last-child .col:last-child  img{
     border-radius: 0 0 25px 0;
 }
 
+main i {
+    font-size: 1.5em;
+}
+
+select {
+    height: 30px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+footer img {
+    width: 60px;
+}
+
+.booking {
+    width: 320px;
+    height: 210px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+.booking i {
+    font-size: 12px;
+}
+.booking p {
+    font-size: 21px;
+}
+
+.booking .d-flex p {
+    font-size: 13px;
+    padding-left: 10px;
+}

@@ -7,41 +7,194 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="appartamento.css">    
+    <link rel="stylesheet" href="appartamento.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
 
     <nav> QUI ANDRA' LA NAVBAR</nav>
     <header>
-    <div class="container">
-        <h2>Blarmor home</h2>
-        <div class="row">
-            
-            <div class="col-6">
-                <span>4.6 ratings • Inverness</span>
-            </div>
-            <div class="col-6 text-end">
-                <span>Share</span>
-                <span>Save</span>
-            </div>
-            
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-auto img-fluid "><img src="assets/1.webp" alt=""></div>
-            <div class="col d-flex flex-wrap align-content-between">
-                <div class="row">
-                    <div class="col "><img src="assets/2.webp" alt="" class="img-fluid"></div>
-                    <div class="col "><img src="assets/3.webp" alt="" class="img-fluid"></div>
+        <div class="container">
+            <h2>Blarmor home</h2>
+            <div class="row">
+
+                <div class="col-6">
+                    <span>4.6 ratings • Inverness</span>
                 </div>
-                <div class="row">
-                    <div class="col"><img src="assets/4.webp" alt="" class="img-fluid"></div>
-                    <div class="col"><img src="assets/5.webp" alt="" class="img-fluid"></div>
+                <div class="col-6 text-end">
+                    <span>Share</span>
+                    <span>Save</span>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-auto  "><img src="assets/1.webp" class="img-fluid" alt=""></div>
+                <div class="col d-flex flex-wrap align-content-between">
+                    <div class="row">
+                        <div class="col "><img src="assets/2.webp" alt="" class="img-fluid"></div>
+                        <div class="col "><img src="assets/3.webp" alt="" class="img-fluid"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="assets/4.webp" alt="" class="img-fluid"></div>
+                        <div class="col"><img src="assets/5.webp" alt="" class="img-fluid"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
+    <main>
+        <div class="container">
+            <h2>House - Host: Erica</h2>
+            <div class="row">
+                <span>3 rooms • Perfect place to visit the Loch Ness and go looking for Nessie </span>
+            </div>
+            <div class="row">
+                <div class="col-6"><span>Show host details</span>
+
+                    <div class="d-flex py-4">
+                        <div class=" d-flex align-items-center">
+                            <i class="bi bi-house-door"></i>
+                        </div>
+                        <div class=" ms-3 d-flex flex-column justify-content-between">
+                            <h6 class="m-0 pb-2 fw-bold">House</h6>
+                            <p class="m-0">You will have the whole premise for you</p>
+                        </div>
+                    </div>
+                    <div class="d-flex py-4">
+                        <div class=" d-flex align-items-center">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <div class=" ms-3 d-flex flex-column justify-content-between">
+                            <h6 class="m-0 pb-2 fw-bold">Advanced Cleaning Methods</h6>
+                            <p class="m-0">The host is committing to out 5-step cleaning process</p>
+                        </div>
+                    </div>
+                    <div class="d-flex py-4">
+                        <div class=" d-flex align-items-center">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div class=" ms-3 d-flex flex-column justify-content-between">
+                            <h6 class="m-0 pb-2 fw-bold">inversess</h6>
+                            <p class="m-0">5 Kilmore Rd</p>
+                        </div>
+                    </div>
+                    <div class="d-flex py-4">
+                        <div class=" d-flex align-items-center">
+                            <i class="bi bi-calendar3"></i>
+                        </div>
+                        <div class=" ms-3 d-flex flex-column justify-content-between">
+                            <h6 class="m-0 pb-2 fw-bold">Cancellation Terms And Fees</h6>
+                            <p class="m-0">Add your travel dates to know details about cancellation fees and terms</p>
+                        </div>
+                    </div>
+                    <div class="d-flex py-4">
+                        <div class=" d-flex align-items-center">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <div class=" ms-3 d-flex flex-column justify-content-between">
+                            <h6 class="m-0 pb-2 fw-bold">Rules Of The House</h6>
+                            <p class="m-0">It's forbidden to host parties, bring animals and smoke</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <div class="booking">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6"><p>Add dates to see the prices</p></div>
+                                <div class="col-6 d-flex justify-content-end">
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.0, 6 reviews</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                            
+
+                            
+                                
+                            
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-7">
+                            <label for="name">Name:</label>
+
+                            <input type="text" class="w-100" placeholder="Enter Name" />
+                        </div>
+                        <div class="col-5">
+                            <label>Rating:</label>
+
+                            <select name="rating" class="w-100">
+                                <option value="1">★</option>
+                                <option value="2">★★</option>
+                                <option value="3">★★★</option>
+                                <option value="4">★★★★</option>
+                                <option value="5">★★★★★</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="name">Review:</label>
+
+                            <textarea placeholder="Type in your review" class="w-100"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-5  mx-auto">
+                    <div class="d-flex align-items-center mb-2">
+
+                        <img src="assets/propic.png" alt="">
+
+                        <div class="ps-2">
+                            <h6 class="m-0">Noemi</h6>
+                            <p class="m-0">jan 2021</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Contrary to other reviews, I was cold couldn't figure out how to turn on the heating...
+                            Otherwise amazing house.</p>
+                    </div>
+                </div>
+                <div class="col-5  mx-auto">
+                    <div class="d-flex align-items-center mb-2">
+
+                        <img src="assets/propic.png" alt="">
+
+                        <div class="ps-2 d-flex flex-column justify-content-center">
+                            <h6 class="m-0">Enrico</h6>
+                            <p class="m-0">jan 2021</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Amazing place, I've been here with my daughter to take pictures and we were not disappointed!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
 
 
 
