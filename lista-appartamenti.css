@@ -16,3 +16,10 @@
 .container.text-center.d-flex.my-1  {
     background-color: yellowgreen;
 }
+.container .text-center .row .col {
+    margin-bottom: 150px;
+}
+
+body p {
+    margin-bottom: 0;
+}
