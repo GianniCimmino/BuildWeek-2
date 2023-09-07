@@ -13,13 +13,26 @@
 
 <body>
 
-    <nav> QUI ANDRA' LA NAVBAR</nav>
+    <nav class="navbar bg-body-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- Linkare la pagina di benvenuto  -->
+                <img src="/assets/logo-pink.png" alt="Airbnb" width="100" height="50" />
+            </a>
+            <div class="d-flex align-items-center my-4">
+                <h6 class="m-0"><small>become a host</small></h6>
+                <img src="assets/globe-solid.svg" alt="globe" width="15" height="15" class="mx-3" />
+                <img src="assets/bars-solid.svg" alt="bars" width="15" height="15" class="mx-2" />
+                <img src="/assets/propic.png" alt="Profile" width="40" height="40" class="mx-2" />
+            </div>
+        </div>
+    </nav>
     <header>
         <div class="container">
             <h3 class="fw-bold">Blarmor home</h3>
             <div class="row mb-3">
                 <div class="col-6">
-                    <span> <b>4.6</b>  ratings • Inverness</span>
+                    <span> <b>4.6</b> ratings • Inverness</span>
                 </div>
                 <div class="col-6 text-end">
                     <i class="bi bi-box-arrow-up"></i>
@@ -52,7 +65,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-lg-6"><span class="fw-bold text-body-secondary">Show host details</span>
-                    
+
                     <div class="d-flex py-3 py-md-4">
                         <div class=" d-flex align-items-center">
                             <i class="bi bi-house-door"></i>
@@ -86,7 +99,8 @@
                         </div>
                         <div class=" ms-3 d-flex flex-column justify-content-between">
                             <h6 class="m-0 pb-2 fw-bold">Cancellation Terms And Fees</h6>
-                            <p class="m-0 text-body-secondary">Add your travel dates to know details about cancellation fees and terms</p>
+                            <p class="m-0 text-body-secondary">Add your travel dates to know details about cancellation
+                                fees and terms</p>
                         </div>
                     </div>
                     <div class="d-flex py-3 py-md-4">
@@ -95,7 +109,8 @@
                         </div>
                         <div class=" ms-3 d-flex flex-column justify-content-between">
                             <h6 class="m-0 pb-2 fw-bold">Rules Of The House</h6>
-                            <p class="m-0 text-body-secondary">It's forbidden to host parties, bring animals and smoke</p>
+                            <p class="m-0 text-body-secondary">It's forbidden to host parties, bring animals and smoke
+                            </p>
                         </div>
                     </div>
 
@@ -104,31 +119,36 @@
                     <div class="booking">
                         <div class="container">
                             <div class="row mt-3 mx-1">
-                                <div class="col-6"><p>Add dates to see the prices</p></div>
+                                <div class="col-6">
+                                    <p>Add dates to see the prices</p>
+                                </div>
                                 <div class="col-6 d-flex justify-content-end align-items-baseline">
                                     <i class="bi bi-star-fill"></i>
-                                    <p>4.0, 6 reviews</p></div>
+                                    <p>4.0, 6 reviews</p>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 d-flex justify-content-center">
-                                    <input type="date" id="start" name="trip-start" value="aaaa-mm-gg" min="aaaa-mm-gg" max="aaaa-mm-gg" />
-                                    <input type="date" id="start" name="trip-start" value="aaaa-mm-gg" min="aaaa-mm-gg" max="aaaa-mm-gg" />
+                                    <input type="date" id="start" name="trip-start" value="aaaa-mm-gg" min="aaaa-mm-gg"
+                                        max="aaaa-mm-gg" />
+                                    <input type="date" id="start" name="trip-start" value="aaaa-mm-gg" min="aaaa-mm-gg"
+                                        max="aaaa-mm-gg" />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 d-flex justify-content-center">
                                     <input type="text" name="" id="" placeholder="Guests">
-                                    
+
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 my-3 d-flex justify-content-center">
                                     <input type="button" value="Cancel Booking">
-                                    
+
                                 </div>
                             </div>
                         </div>
-  
+
                     </div>
                 </div>
             </div>
@@ -145,7 +165,7 @@
                             <input type="text" class="w-100" placeholder="Enter Name" />
                         </div>
                         <div class="col-5">
-                            <label class="mb-2 text-body-secondary" >Rating:</label>
+                            <label class="mb-2 text-body-secondary">Rating:</label>
 
                             <select name="rating" class="w-100">
                                 <option value="1">★</option>
