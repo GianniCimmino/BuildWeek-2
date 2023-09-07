@@ -1,0 +1,117 @@
+@media screen and (min-width: 1400px) { 
+    header .col-12.col-lg-6.col-xxl-auto img{
+        max-width: 785px;
+    }
+}   
+
+
+header .col-12.col-lg-6.col-xxl-auto img {
+    border-radius: 25px 0 0 25px;
+}
+
+header .row .row:first-child .col:last-child  img{
+
+    border-radius: 0 25px 0 0;
+}
+
+header .row .row:last-child .col:last-child  img{
+
+    border-radius: 0 0 25px 0;
+}
+
+
+main i {
+    font-size: 1.5em;
+}
+
+select {
+    height: 30px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+footer img {
+    width: 60px;
+}
+
+.booking {
+    width: 360px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25px;
+    -webkit-box-shadow: 8px 10px 31px 0px rgba(0,0,0,0.35); 
+    box-shadow: 8px 10px 31px 0px rgba(0,0,0,0.35);
+}
+
+.booking i {
+    font-size: 11px;
+    color: #FF385C;
+}
+.booking p {
+    font-size: 20px;
+}
+
+.booking .d-flex p {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.booking input[type="date"] {
+    width: 45%;
+    height: 3.2em;
+    
+}
+.booking input[type="date"]:first-of-type {
+    border-radius: 15px 0 0 0;
+    border: 1px solid grey;
+    border-right: none;
+    
+}
+.booking input[type="date"]:last-of-type {
+    border-radius: 0 15px 0 0;
+    border: 1px solid grey;
+    
+    
+}
+.booking input[type="text"] {
+    width: 90%;
+    height: 3em;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid grey;
+    border-top: none;
+}
+
+.booking input[type="button"] {
+    width: 90%;
+    height: 3.2em;
+    border: none;
+    border-radius: 15px;
+    background-color: #FF385C;
+    color: white;
+    font-weight: bold;
+   
+}
+
+@media screen and (max-width: 991px) {
+    
+    header .col-12.col-lg-6.col-xxl-auto img {
+        border-radius: 25px 25px 0 0;
+    }
+    
+    header .row .row:first-child .col:last-child  img{
+    
+        border-radius: 0 0 0 0;
+    }
+    
+    header .row .row:last-child .col:last-child  img{
+    
+        border-radius: 0 0 25px 0;
+    }
+    header .row .row:last-child .col:first-child  img{
+    
+        border-radius: 0 0 0 25px;
+    }
+}
