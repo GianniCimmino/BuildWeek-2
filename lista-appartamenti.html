@@ -15,7 +15,7 @@
   <body>
     <nav class="navbar bg-body-white">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://www.airbnb.it/">
           <!-- Linkare la pagina di benvenuto  -->
           <img
             src="/assets/logo-pink.png"
@@ -24,36 +24,79 @@
             height="50"
           />
         </a>
-        <div class="d-flex align-items-center my-4">
-          <h6><small>become a host</small></h6>
-          <img
+        <div class="d-flex align-items-center my-4 ">
+          <a href="https://www.airbnb.it/host/homes"
+            ><button type="button" class="btn btn-outline-secondary border-white"><h6><small>become a host</small></h6></a
+          ></button>
+          
+          <button type="button" class="btn btn-outline-secondary rounded-circle border-white"><img
             src="assets/globe-solid.svg"
             alt="globe"
             width="15"
             height="15"
-            class="mx-3"
-          />
-          <img
-            src="assets/bars-solid.svg"
-            alt="bars"
-            width="15"
-            height="15"
-            class="mx-2"
-          />
-          <img
-            src="/assets/propic.png"
-            alt="Profile"
-            width="40"
-            height="40"
-            class=""
-          />
+            
+          /></button>
+        
+          <div class="dropdown mx-4">
+            <a
+              class="btn btn-secondary dropdown-toggle bg-white rounded-pill shadow"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="assets/bars-solid.svg"
+                alt="bars"
+                width="15"
+                height="15"
+                class="mx-2"
+              />
+              <img
+                src="/assets/propic.png"
+                alt="Profile"
+                width="40"
+                height="40"
+              />
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.airbnb.it/signup_login"
+                  >Registrati</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.airbnb.it/login"
+                  >Accedi</a
+                >
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a
+                  class="dropdown-item text-body-secondary"
+                  href="https://www.airbnb.it/host/homes"
+                  >Affitta con Airbnb</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-body-secondary"
+                  href="https://www.airbnb.it/help?audience=guest"
+                  ><p class="">Centro assistenza</p></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
     <div class="container my-5">
       <p>10 stays</p>
       <div class="d-flex">
-        <h1 class="me-3">Stays in Genova</h1>
+        <h1 class="me-3">Stays in Italy</h1>
         <img
           class="my-2"
           src="assets/circle-plus-solid.svg"
@@ -83,12 +126,14 @@
         <div class="container text-center">
           <div class="row row-cols-5">
             <div class="col px-2">
+              <a href="#"
+                ><img
+                  class="img-fluid rounded-3"
+                  src="assets/Casa 1.jpg"
+                  alt="Casa5"
+              /></a>
               <!-- Appartamento 1 -->
-              <img
-                class="img-fluid rounded-3"
-                src="assets/Casa 1.jpg"
-                alt="Casa5"
-              />
+
               <div class="d-flex">
                 <img
                   class="my-1"
@@ -209,7 +254,7 @@
                 />
                 <div>
                   <p class="mx-3 mb-0">3.9 • 6543 Ratings</p>
-                  <p class="">Apartment •</p>
+                  <p class="">Apartment • Genova</p>
                   <p class="">Gorreto</p>
                 </div>
               </div>
