@@ -20,3 +20,31 @@
     width: fit-content;
     margin-top: 4rem;
   }
+
+
+  @media screen and (max-width: 768px ) {
+    .d-inline-flex h1 {
+        font-size: 26px;
+        
+    }
+    .container.rounded-pill.border {
+        
+        margin-top: 1rem;
+    }
+    .d-flex.flex-column.px-2 {
+        font-size: 12px;
+    }
+    .d-flex.flex-column.px-2 input {
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 440px ) {
+    section h5 {
+        font-size: 19px;
+        margin: 0;
+        
+    }
+    section p {
+        font-size: 13px;
+    }
+  }
