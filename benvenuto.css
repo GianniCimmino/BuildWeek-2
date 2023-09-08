@@ -1,3 +1,7 @@
+
+.dropdown-toggle::after {
+    color: black;
+}
 .container-fluid {
     position: relative;
 }
