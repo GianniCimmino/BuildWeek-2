@@ -29,6 +29,3 @@ body p {
         height: 40px;
     }    
 }
-.btn.btn-secondary.dropdown-toggle.bg-white.border-white.rounded-pill.hover-effect:hover{
-    opacity: 0,5;
-}
