@@ -19,7 +19,34 @@ header .row .row:last-child .col:last-child  img{
     border-radius: 0 0 25px 0;
 }
 
+.bi.bi-heart-fill {
 
+    position: absolute;
+    right: 49px;
+    opacity: 0;
+    scale: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.bi.bi-heart-fill:hover {
+
+
+    opacity: 1;
+    scale: 1.2;
+}
+
+.bi.bi-box-arrow-up {
+
+    scale: 1;
+    transition: 0.2s all ease-in-out;
+    position: absolute;
+    right: 112px;
+    top: -1px;
+
+}
+.bi.bi-box-arrow-up:hover {
+    scale: 1.2;
+}
 main i {
     font-size: 1.5em;
 }
