@@ -26,10 +26,9 @@ body p {
     text-decoration: gray;
 }
 
-.dropdown.mx-2::before a{
-    box-shadow: 2px 2px 5px 2px #b3b0b0;
-}
-
-.dropdown.mx-2::after a{
-    box-shadow: none;
+@media screen and (max-width:375px){
+    #logo{
+        width: 50px;
+        height: 30px;
+    }    
 }
