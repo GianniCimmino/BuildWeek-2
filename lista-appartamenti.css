@@ -29,3 +29,7 @@ body p {
         height: 40px;
     }    
 }
+
+.dropdown-toggle::after {
+    color: black;
+}
