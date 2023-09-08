@@ -158,7 +158,9 @@ footer img {
     text-decoration: none; 
      color: black; 
 } 
-
+.btn:hover {
+    color: black !important;
+}
 @media screen and (max-width:375px){
     #logo{
         width:70px;

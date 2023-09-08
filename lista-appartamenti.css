@@ -23,6 +23,9 @@ body p {
     text-decoration: gray;
 }
 
+.btn:hover {
+    color: black !important;
+}
 @media screen and (max-width:375px){
     #logo{
         width: 70px;
