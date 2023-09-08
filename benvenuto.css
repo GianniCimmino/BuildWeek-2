@@ -1,0 +1,22 @@
+.container-fluid {
+    position: relative;
+}
+
+.container-fluid .d-inline-flex {
+    position: absolute;
+    height: 100%;
+    color: white;
+}
+
+.d-inline-flex h1 {
+    font-size: 60px;
+    font-weight:bolder;
+}
+
+.container.rounded-pill.border {
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    width: fit-content;
+    margin-top: 4rem;
+  }
