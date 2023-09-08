@@ -92,6 +92,13 @@ footer img {
     background-color: #FF385C;
     color: white;
     font-weight: bold;
+    transition: scale 0.2s ease-in-out;
+    scale: 1
+}
+
+.booking input[type="button"]:hover {
+
+    scale: 1.05;
    
 }
 
