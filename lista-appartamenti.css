@@ -12,9 +12,6 @@
     filter: invert(44%) sepia(93%) saturate(7483%) hue-rotate(332deg) brightness(92%) contrast(93%);
 }
 
-.container.text-center.d-flex.my-1  {
-    background-color: yellowgreen;
-}
 .container .text-center .row .col {
     margin-bottom: 75px;
 }
@@ -28,7 +25,10 @@ body p {
 
 @media screen and (max-width:375px){
     #logo{
-        width: 50px;
-        height: 30px;
+        width: 70px;
+        height: 40px;
     }    
+}
+.btn.btn-secondary.dropdown-toggle.bg-white.border-white.rounded-pill.hover-effect:hover{
+    opacity: 0,5;
 }
