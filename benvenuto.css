@@ -21,7 +21,17 @@
     margin-top: 4rem;
   }
 
+.bg-dark {
+    background-color: black !important;
+}
 
+.bi-globe2 {
+    color: white;
+}
+
+.d-flex.align-items-center button>a {
+    text-decoration: none;
+}
   @media screen and (max-width: 768px ) {
     .d-inline-flex h1 {
         font-size: 26px;
@@ -48,3 +58,10 @@
         font-size: 13px;
     }
   }
+
+  @media screen and (max-width:375px){
+    #logo{
+        width:70px;
+        height: 40px;
+    }    
+}
