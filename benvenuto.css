@@ -32,6 +32,15 @@
 .d-flex.align-items-center button>a {
     text-decoration: none;
 }
+
+#p-center-nav {
+    margin-left: 183px;
+    font-size: 12px;
+}
+
+.d-none.d-lg-flex p {
+    cursor: pointer;
+}
   @media screen and (max-width: 768px ) {
     .d-inline-flex h1 {
         font-size: 26px;
